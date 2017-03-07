@@ -1,0 +1,11 @@
+{
+  "name": "sad",
+  "version": "0.1.0",
+  "description": "A small cli to help manage services and long running processes",
+  "main": "index.js",
+  "author": "wenincode <twendlan@ualberta.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "args": "^2.3.0"
+  }
+}
