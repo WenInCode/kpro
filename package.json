@@ -2,10 +2,14 @@
   "name": "sad",
   "version": "0.1.0",
   "description": "A small cli to help manage services and long running processes",
-  "main": "index.js",
+  "main": "./bin/sad.js",
   "author": "wenincode <twendlan@ualberta.ca>",
   "license": "MIT",
+  "bin": {
+    "sad": "./bin/sad.js"
+  },
   "dependencies": {
-    "args": "^2.3.0"
+    "args": "^2.3.0",
+    "lodash": "^4.17.4"
   }
 }
