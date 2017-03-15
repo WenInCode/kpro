@@ -9,8 +9,7 @@ const parsePSOutput = require('../lib/parse-ps-output')
 const handleMatchedProcesses = require('../lib/handle-processes')
 
 args
-  .option('no-confirm', 'Kill matched processes without confirmation', false)
-  .command('echo', 'Echo back some content', ['e'])
+  .option('force', 'Kill matched processes without confirmation', false)
 
 const flags = args.parse(process.argv, { value: '<search values>' })
 const value = args.sub[0]
