@@ -1,7 +1,7 @@
 {
   "name": "kpro",
   "version": "0.1.0",
-  "description": "A small CLI to help find and kill processes",
+  "description": "A small CLI to help seach for and destroy processes",
   "author": "wenincode <twendlan@ualberta.ca>",
   "license": "MIT",
   "bin": {
