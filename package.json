@@ -1,12 +1,11 @@
 {
-  "name": "sad",
+  "name": "kpro",
   "version": "0.1.0",
-  "description": "A small cli to help manage services and long running processes",
-  "main": "./bin/sad.js",
+  "description": "A small CLI to help find and kill processes",
   "author": "wenincode <twendlan@ualberta.ca>",
   "license": "MIT",
   "bin": {
-    "sad": "./bin/sad.js"
+    "kpro": "./bin/kpro.js"
   },
   "dependencies": {
     "args": "^2.3.0",
